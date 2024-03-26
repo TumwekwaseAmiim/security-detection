@@ -21,3 +21,8 @@ Route::get('/', function () {
 Route::get('threats', function () {
     return view('threats');
 });
+
+
+Route::get('scan', function () {
+    return view('scan');
+});
