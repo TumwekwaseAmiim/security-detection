@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Threats')
+@section('title', 'Vulnerabilities')
 
 @section('content')
 
@@ -12,7 +12,7 @@
 		<div class="card">
 
 			<div class="header">
-				<h4 class="title">Threats Statistics</h4>
+				<h4 class="title">Vulnerabilities Statistics</h4>
 			</div>
 			<div class="content">
 

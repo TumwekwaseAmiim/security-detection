@@ -64,7 +64,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/vulnerabilities">
                         <i class="pe-7s-note2"></i>
                         <p>Vulnerabilities</p>
                     </a>
