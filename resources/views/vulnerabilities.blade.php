@@ -7,8 +7,6 @@
 <div class="row">
 	<div class="col-md-12">
 
-		<a href="#" class="btn btn-primary">New Scan</a><hr>
-
 		<div class="card">
 
 			<div class="header">
