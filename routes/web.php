@@ -24,4 +24,7 @@ Route::get('threats', function () {
 
 Route::get('vulnerabilities', function () {
     return view('vulnerabilities');
+
+Route::get('scan', function () {
+    return view('scan');
 });

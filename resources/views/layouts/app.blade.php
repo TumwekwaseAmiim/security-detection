@@ -21,6 +21,9 @@
     <link href="{{ asset('assets/css/light-bootstrap-dashboard.css?v=1.4.0') }}" rel="stylesheet"/>
 
 
+    <!--  Select 2   -->
+    <link href="{{ asset('assets/css/select2.min.css') }}" rel="stylesheet" />
+
     <!--  CSS for Demo Purpose, don't include it in your project     -->
     <link href="{{ asset('assets/css/demo.css') }}" rel="stylesheet" />
 
@@ -166,6 +169,8 @@
         <div class="content">
             <div class="container-fluid">
 
+            	<a href="/scan" class="btn btn-primary">New Scan</a><br><br>
+
             	@yield('content')
 
             </div>
@@ -220,8 +225,11 @@
     <!--  Notifications Plugin    -->
     <script src="{{ asset('assets/js/bootstrap-notify.js') }}"></script>
 
+    <!--  Select2   -->
+    <script src="{{ asset('assets/js/select2.min.js') }}"></script>
+
     <!--  Google Maps Plugin    -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> -->
 
     <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 	<script src="{{ asset('assets/js/light-bootstrap-dashboard.js?v=1.4.0') }}"></script>
@@ -231,6 +239,8 @@
 
 	<script type="text/javascript">
     	$(document).ready(function(){
+
+    		$('.select2').select2();
 
         	demo.initChartist();
 
