@@ -39,11 +39,11 @@
             <div class="content">
                 <div id="chartHours" class="ct-chart"></div>
                 <div class="footer">
-                    <div class="legend">
+<!--                     <div class="legend">
                         <i class="fa fa-circle text-info"></i> Open
                         <i class="fa fa-circle text-danger"></i> Click
                         <i class="fa fa-circle text-warning"></i> Click Second Time
-                    </div>
+                    </div> -->
                     <hr>
                     <div class="stats">
                         <i class="fa fa-history"></i> Updated 3 minutes ago
@@ -60,16 +60,16 @@
     <div class="col-md-6">
         <div class="card ">
             <div class="header">
-                <h4 class="title">2014 Sales</h4>
-                <p class="category">All products including Taxes</p>
+                <h4 class="title">Auto Detection</h4>
+                <p class="category">Insecure Networks</p>
             </div>
             <div class="content">
                 <div id="chartActivity" class="ct-chart"></div>
 
                 <div class="footer">
                     <div class="legend">
-                        <i class="fa fa-circle text-info"></i> Tesla Model S
-                        <i class="fa fa-circle text-danger"></i> BMW 5 Series
+                        <!-- <i class="fa fa-circle text-info"></i> Tesla Model S -->
+                        <!-- <i class="fa fa-circle text-danger"></i> BMW 5 Series -->
                     </div>
                     <hr>
                     <div class="stats">
@@ -83,7 +83,7 @@
     <div class="col-md-6">
         <div class="card ">
             <div class="header">
-                <h4 class="title">Tasks</h4>
+                <h4 class="title">Action</h4>
                 <p class="category">Backend development</p>
             </div>
             <div class="content">
@@ -97,7 +97,7 @@
                                         <label for="checkbox1"></label>
                                     </div>
                                 </td>
-                                <td>Sign contract for "What are conference organizers afraid of?"</td>
+                                <td>Malware was detected and removed</td>
                                 <td class="td-actions text-right">
                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                         <i class="fa fa-edit"></i>
@@ -114,7 +114,7 @@
                                         <label for="checkbox2"></label>
                                     </div>
                                 </td>
-                                <td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
+                                <td>Fishing Attacks were detected and removed</td>
                                 <td class="td-actions text-right">
                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                         <i class="fa fa-edit"></i>
@@ -131,8 +131,7 @@
                                         <label for="checkbox3"></label>
                                     </div>
                                 </td>
-                                <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-                                </td>
+                                <td>Social Engineering detected and handled</td>
                                 <td class="td-actions text-right">
                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                         <i class="fa fa-edit"></i>
@@ -149,7 +148,7 @@
                                         <label for="checkbox4"></label>
                                     </div>
                                 </td>
-                                <td>Create 4 Invisible User Experiences you Never Knew About</td>
+                                <td>Insider Threats was detected and handled</td>
                                 <td class="td-actions text-right">
                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                         <i class="fa fa-edit"></i>
@@ -166,7 +165,7 @@
                                         <label for="checkbox5"></label>
                                     </div>
                                 </td>
-                                <td>Read "Following makes Medium better"</td>
+                                <td>Denial of Service (DoS) Attacks were detected and removed</td>
                                 <td class="td-actions text-right">
                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                         <i class="fa fa-edit"></i>
@@ -183,7 +182,7 @@
                                         <label for="checkbox6"></label>
                                     </div>
                                 </td>
-                                <td>Unfollow 5 enemies from twitter</td>
+                                <td>Man-in-the-Middle Attacks were detected and removed</td>
                                 <td class="td-actions text-right">
                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                         <i class="fa fa-edit"></i>
